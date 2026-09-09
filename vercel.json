@@ -6,5 +6,9 @@
     }
   },
   "outputDirectory": "start",
+  "redirects": [
+    { "source": "/etapa2", "destination": "/etapa2/", "permanent": false },
+    { "source": "/concluido2", "destination": "/concluido2/", "permanent": false }
+  ],
   "cleanUrls": true
 }
