@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "functions": {
+    "api/profile-picture.js": {
+      "maxDuration": 15
+    }
+  },
+  "outputDirectory": "start",
+  "cleanUrls": true
+}
