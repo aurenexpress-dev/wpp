@@ -1,0 +1,521 @@
+﻿<!DOCTYPE html><html lang="pt-BR"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Etapa 01 - Espiao Oficial</title> 
+<meta name="robots" content="noindex">
+<link rel="stylesheet" id="hello-elementor-css" href="css/style.min.css" media="all">
+<link rel="stylesheet" id="hello-elementor-theme-style-css" href="css/theme.min.css" media="all">
+<link rel="stylesheet" id="hello-elementor-header-footer-css" href="css/header-footer.min.css" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="css/frontend-lite.min.css" media="all">
+<style id="elementor-frontend-inline-css">
+@-webkit-keyframes ha_fadeIn{0%{opacity:0}to{opacity:1}}@keyframes ha_fadeIn{0%{opacity:0}to{opacity:1}}@-webkit-keyframes ha_zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}@keyframes ha_zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}@-webkit-keyframes ha_rollIn{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0) rotate3d(0,0,1,-120deg);transform:translate3d(-100%,0,0) rotate3d(0,0,1,-120deg)}to{opacity:1}}@keyframes ha_rollIn{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0) rotate3d(0,0,1,-120deg);transform:translate3d(-100%,0,0) rotate3d(0,0,1,-120deg)}to{opacity:1}}@-webkit-keyframes ha_bounce{0%,20%,53%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}40%,43%{-webkit-transform:translate3d(0,-30px,0) scaleY(1.1);transform:translate3d(0,-30px,0) scaleY(1.1);-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}70%{-webkit-transform:translate3d(0,-15px,0) scaleY(1.05);transform:translate3d(0,-15px,0) scaleY(1.05);-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}80%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);transition-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translate3d(0,0,0) scaleY(.95);transform:translate3d(0,0,0) scaleY(.95)}90%{-webkit-transform:translate3d(0,-4px,0) scaleY(1.02);transform:translate3d(0,-4px,0) scaleY(1.02)}}@keyframes ha_bounce{0%,20%,53%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}40%,43%{-webkit-transform:translate3d(0,-30px,0) scaleY(1.1);transform:translate3d(0,-30px,0) scaleY(1.1);-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}70%{-webkit-transform:translate3d(0,-15px,0) scaleY(1.05);transform:translate3d(0,-15px,0) scaleY(1.05);-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}80%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);transition-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translate3d(0,0,0) scaleY(.95);transform:translate3d(0,0,0) scaleY(.95)}90%{-webkit-transform:translate3d(0,-4px,0) scaleY(1.02);transform:translate3d(0,-4px,0) scaleY(1.02)}}@-webkit-keyframes ha_bounceIn{0%,20%,40%,60%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}to{opacity:1}}@keyframes ha_bounceIn{0%,20%,40%,60%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}to{opacity:1}}@-webkit-keyframes ha_flipInX{0%{opacity:0;-webkit-transform:perspective(400px) rotate3d(1,0,0,90deg);transform:perspective(400px) rotate3d(1,0,0,90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotate3d(1,0,0,-20deg);transform:perspective(400px) rotate3d(1,0,0,-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{opacity:1;-webkit-transform:perspective(400px) rotate3d(1,0,0,10deg);transform:perspective(400px) rotate3d(1,0,0,10deg)}80%{-webkit-transform:perspective(400px) rotate3d(1,0,0,-5deg);transform:perspective(400px) rotate3d(1,0,0,-5deg)}}@keyframes ha_flipInX{0%{opacity:0;-webkit-transform:perspective(400px) rotate3d(1,0,0,90deg);transform:perspective(400px) rotate3d(1,0,0,90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotate3d(1,0,0,-20deg);transform:perspective(400px) rotate3d(1,0,0,-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{opacity:1;-webkit-transform:perspective(400px) rotate3d(1,0,0,10deg);transform:perspective(400px) rotate3d(1,0,0,10deg)}80%{-webkit-transform:perspective(400px) rotate3d(1,0,0,-5deg);transform:perspective(400px) rotate3d(1,0,0,-5deg)}}@-webkit-keyframes ha_flipInY{0%{opacity:0;-webkit-transform:perspective(400px) rotate3d(0,1,0,90deg);transform:perspective(400px) rotate3d(0,1,0,90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotate3d(0,1,0,-20deg);transform:perspective(400px) rotate3d(0,1,0,-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{opacity:1;-webkit-transform:perspective(400px) rotate3d(0,1,0,10deg);transform:perspective(400px) rotate3d(0,1,0,10deg)}80%{-webkit-transform:perspective(400px) rotate3d(0,1,0,-5deg);transform:perspective(400px) rotate3d(0,1,0,-5deg)}}@keyframes ha_flipInY{0%{opacity:0;-webkit-transform:perspective(400px) rotate3d(0,1,0,90deg);transform:perspective(400px) rotate3d(0,1,0,90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotate3d(0,1,0,-20deg);transform:perspective(400px) rotate3d(0,1,0,-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{opacity:1;-webkit-transform:perspective(400px) rotate3d(0,1,0,10deg);transform:perspective(400px) rotate3d(0,1,0,10deg)}80%{-webkit-transform:perspective(400px) rotate3d(0,1,0,-5deg);transform:perspective(400px) rotate3d(0,1,0,-5deg)}}@-webkit-keyframes ha_swing{20%{-webkit-transform:rotate3d(0,0,1,15deg);transform:rotate3d(0,0,1,15deg)}40%{-webkit-transform:rotate3d(0,0,1,-10deg);transform:rotate3d(0,0,1,-10deg)}60%{-webkit-transform:rotate3d(0,0,1,5deg);transform:rotate3d(0,0,1,5deg)}80%{-webkit-transform:rotate3d(0,0,1,-5deg);transform:rotate3d(0,0,1,-5deg)}}@keyframes ha_swing{20%{-webkit-transform:rotate3d(0,0,1,15deg);transform:rotate3d(0,0,1,15deg)}40%{-webkit-transform:rotate3d(0,0,1,-10deg);transform:rotate3d(0,0,1,-10deg)}60%{-webkit-transform:rotate3d(0,0,1,5deg);transform:rotate3d(0,0,1,5deg)}80%{-webkit-transform:rotate3d(0,0,1,-5deg);transform:rotate3d(0,0,1,-5deg)}}@-webkit-keyframes ha_slideInDown{0%{visibility:visible;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}@keyframes ha_slideInDown{0%{visibility:visible;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}@-webkit-keyframes ha_slideInUp{0%{visibility:visible;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}@keyframes ha_slideInUp{0%{visibility:visible;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}@-webkit-keyframes ha_slideInLeft{0%{visibility:visible;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}@keyframes ha_slideInLeft{0%{visibility:visible;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}@-webkit-keyframes ha_slideInRight{0%{visibility:visible;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}@keyframes ha_slideInRight{0%{visibility:visible;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}.ha_fadeIn{-webkit-animation-name:ha_fadeIn;animation-name:ha_fadeIn}.ha_zoomIn{-webkit-animation-name:ha_zoomIn;animation-name:ha_zoomIn}.ha_rollIn{-webkit-animation-name:ha_rollIn;animation-name:ha_rollIn}.ha_bounce{-webkit-transform-origin:center bottom;-ms-transform-origin:center bottom;transform-origin:center bottom;-webkit-animation-name:ha_bounce;animation-name:ha_bounce}.ha_bounceIn{-webkit-animation-name:ha_bounceIn;animation-name:ha_bounceIn;-webkit-animation-duration:.75s;-webkit-animation-duration:calc(var(--animate-duration)*.75);animation-duration:.75s;animation-duration:calc(var(--animate-duration)*.75)}.ha_flipInX,.ha_flipInY{-webkit-animation-name:ha_flipInX;animation-name:ha_flipInX;-webkit-backface-visibility:visible!important;backface-visibility:visible!important}.ha_flipInY{-webkit-animation-name:ha_flipInY;animation-name:ha_flipInY}.ha_swing{-webkit-transform-origin:top center;-ms-transform-origin:top center;transform-origin:top center;-webkit-animation-name:ha_swing;animation-name:ha_swing}.ha_slideInDown{-webkit-animation-name:ha_slideInDown;animation-name:ha_slideInDown}.ha_slideInUp{-webkit-animation-name:ha_slideInUp;animation-name:ha_slideInUp}.ha_slideInLeft{-webkit-animation-name:ha_slideInLeft;animation-name:ha_slideInLeft}.ha_slideInRight{-webkit-animation-name:ha_slideInRight;animation-name:ha_slideInRight}.ha-css-transform-yes{-webkit-transition-duration:var(--ha-tfx-transition-duration, .2s);transition-duration:var(--ha-tfx-transition-duration, .2s);-webkit-transition-property:-webkit-transform;transition-property:transform;transition-property:transform,-webkit-transform;-webkit-transform:translate(var(--ha-tfx-translate-x, 0),var(--ha-tfx-translate-y, 0)) scale(var(--ha-tfx-scale-x, 1),var(--ha-tfx-scale-y, 1)) skew(var(--ha-tfx-skew-x, 0),var(--ha-tfx-skew-y, 0)) rotateX(var(--ha-tfx-rotate-x, 0)) rotateY(var(--ha-tfx-rotate-y, 0)) rotateZ(var(--ha-tfx-rotate-z, 0));transform:translate(var(--ha-tfx-translate-x, 0),var(--ha-tfx-translate-y, 0)) scale(var(--ha-tfx-scale-x, 1),var(--ha-tfx-scale-y, 1)) skew(var(--ha-tfx-skew-x, 0),var(--ha-tfx-skew-y, 0)) rotateX(var(--ha-tfx-rotate-x, 0)) rotateY(var(--ha-tfx-rotate-y, 0)) rotateZ(var(--ha-tfx-rotate-z, 0))}.ha-css-transform-yes:hover{-webkit-transform:translate(var(--ha-tfx-translate-x-hover, var(--ha-tfx-translate-x, 0)),var(--ha-tfx-translate-y-hover, var(--ha-tfx-translate-y, 0))) scale(var(--ha-tfx-scale-x-hover, var(--ha-tfx-scale-x, 1)),var(--ha-tfx-scale-y-hover, var(--ha-tfx-scale-y, 1))) skew(var(--ha-tfx-skew-x-hover, var(--ha-tfx-skew-x, 0)),var(--ha-tfx-skew-y-hover, var(--ha-tfx-skew-y, 0))) rotateX(var(--ha-tfx-rotate-x-hover, var(--ha-tfx-rotate-x, 0))) rotateY(var(--ha-tfx-rotate-y-hover, var(--ha-tfx-rotate-y, 0))) rotateZ(var(--ha-tfx-rotate-z-hover, var(--ha-tfx-rotate-z, 0)));transform:translate(var(--ha-tfx-translate-x-hover, var(--ha-tfx-translate-x, 0)),var(--ha-tfx-translate-y-hover, var(--ha-tfx-translate-y, 0))) scale(var(--ha-tfx-scale-x-hover, var(--ha-tfx-scale-x, 1)),var(--ha-tfx-scale-y-hover, var(--ha-tfx-scale-y, 1))) skew(var(--ha-tfx-skew-x-hover, var(--ha-tfx-skew-x, 0)),var(--ha-tfx-skew-y-hover, var(--ha-tfx-skew-y, 0))) rotateX(var(--ha-tfx-rotate-x-hover, var(--ha-tfx-rotate-x, 0))) rotateY(var(--ha-tfx-rotate-y-hover, var(--ha-tfx-rotate-y, 0))) rotateZ(var(--ha-tfx-rotate-z-hover, var(--ha-tfx-rotate-z, 0)))}.happy-addon>.elementor-widget-container{word-wrap:break-word;overflow-wrap:break-word}.happy-addon>.elementor-widget-container,.happy-addon>.elementor-widget-container *{-webkit-box-sizing:border-box;box-sizing:border-box}.happy-addon p:empty{display:none}.happy-addon .elementor-inline-editing{min-height:auto!important}.happy-addon-pro img{max-width:100%;height:auto;-o-object-fit:cover;object-fit:cover}.ha-screen-reader-text{position:absolute;overflow:hidden;clip:rect(1px,1px,1px,1px);margin:-1px;padding:0;width:1px;height:1px;border:0;word-wrap:normal!important;-webkit-clip-path:inset(50%);clip-path:inset(50%)}.ha-has-bg-overlay>.elementor-widget-container{position:relative;z-index:1}.ha-has-bg-overlay>.elementor-widget-container:before{position:absolute;top:0;left:0;z-index:-1;width:100%;height:100%;content:""}.ha-popup--is-enabled .ha-js-popup,.ha-popup--is-enabled .ha-js-popup img{cursor:-webkit-zoom-in!important;cursor:zoom-in!important}.mfp-wrap .mfp-arrow,.mfp-wrap .mfp-close{background-color:transparent}.mfp-wrap .mfp-arrow:focus,.mfp-wrap .mfp-close:focus{outline-width:thin}.ha-advanced-tooltip-enable{position:relative;cursor:pointer;--ha-tooltip-arrow-color:black;--ha-tooltip-arrow-distance:0}.ha-advanced-tooltip-enable .ha-advanced-tooltip-content{position:absolute;z-index:999;display:none;padding:5px 0;width:120px;height:auto;border-radius:6px;background-color:#000;color:#fff;text-align:center;opacity:0}.ha-advanced-tooltip-enable .ha-advanced-tooltip-content::after{position:absolute;border-width:5px;border-style:solid;content:""}.ha-advanced-tooltip-enable .ha-advanced-tooltip-content.no-arrow::after{visibility:hidden}.ha-advanced-tooltip-enable .ha-advanced-tooltip-content.show{display:inline-block;opacity:1}.ha-advanced-tooltip-enable.ha-advanced-tooltip-top .ha-advanced-tooltip-content,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-top .ha-advanced-tooltip-content{top:unset;right:0;bottom:calc(101% + var(--ha-tooltip-arrow-distance));left:0;margin:0 auto}.ha-advanced-tooltip-enable.ha-advanced-tooltip-top .ha-advanced-tooltip-content::after,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-top .ha-advanced-tooltip-content::after{top:100%;right:unset;bottom:unset;left:50%;border-color:var(--ha-tooltip-arrow-color) transparent transparent transparent;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}.ha-advanced-tooltip-enable.ha-advanced-tooltip-bottom .ha-advanced-tooltip-content,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-bottom .ha-advanced-tooltip-content{top:calc(101% + var(--ha-tooltip-arrow-distance));right:0;bottom:unset;left:0;margin:0 auto}.ha-advanced-tooltip-enable.ha-advanced-tooltip-bottom .ha-advanced-tooltip-content::after,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-bottom .ha-advanced-tooltip-content::after{top:unset;right:unset;bottom:100%;left:50%;border-color:transparent transparent var(--ha-tooltip-arrow-color) transparent;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}.ha-advanced-tooltip-enable.ha-advanced-tooltip-left .ha-advanced-tooltip-content,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-left .ha-advanced-tooltip-content{top:50%;right:calc(101% + var(--ha-tooltip-arrow-distance));bottom:unset;left:unset;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.ha-advanced-tooltip-enable.ha-advanced-tooltip-left .ha-advanced-tooltip-content::after,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-left .ha-advanced-tooltip-content::after{top:50%;right:unset;bottom:unset;left:100%;border-color:transparent transparent transparent var(--ha-tooltip-arrow-color);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.ha-advanced-tooltip-enable.ha-advanced-tooltip-right .ha-advanced-tooltip-content,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-right .ha-advanced-tooltip-content{top:50%;right:unset;bottom:unset;left:calc(101% + var(--ha-tooltip-arrow-distance));-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.ha-advanced-tooltip-enable.ha-advanced-tooltip-right .ha-advanced-tooltip-content::after,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-right .ha-advanced-tooltip-content::after{top:50%;right:100%;bottom:unset;left:unset;border-color:transparent var(--ha-tooltip-arrow-color) transparent transparent;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-top .ha-advanced-tooltip-content{top:unset;right:0;bottom:calc(101% + var(--ha-tooltip-arrow-distance));left:0;margin:0 auto}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-top .ha-advanced-tooltip-content::after{top:100%;right:unset;bottom:unset;left:50%;border-color:var(--ha-tooltip-arrow-color) transparent transparent transparent;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-bottom .ha-advanced-tooltip-content{top:calc(101% + var(--ha-tooltip-arrow-distance));right:0;bottom:unset;left:0;margin:0 auto}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-bottom .ha-advanced-tooltip-content::after{top:unset;right:unset;bottom:100%;left:50%;border-color:transparent transparent var(--ha-tooltip-arrow-color) transparent;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-left .ha-advanced-tooltip-content{top:50%;right:calc(101% + var(--ha-tooltip-arrow-distance));bottom:unset;left:unset;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-left .ha-advanced-tooltip-content::after{top:50%;right:unset;bottom:unset;left:100%;border-color:transparent transparent transparent var(--ha-tooltip-arrow-color);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-right .ha-advanced-tooltip-content{top:50%;right:unset;bottom:unset;left:calc(101% + var(--ha-tooltip-arrow-distance));-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-right .ha-advanced-tooltip-content::after{top:50%;right:100%;bottom:unset;left:unset;border-color:transparent var(--ha-tooltip-arrow-color) transparent transparent;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}body.elementor-editor-active .happy-addon.ha-gravityforms .gform_wrapper{display:block!important}.ha-scroll-to-top-wrap.ha-scroll-to-top-hide{display:none}.ha-scroll-to-top-wrap.edit-mode,.ha-scroll-to-top-wrap.single-page-off{display:none!important}.ha-scroll-to-top-button{position:fixed;right:15px;bottom:15px;z-index:9999;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;width:50px;height:50px;border-radius:50px;background-color:#5636d1;color:#fff;text-align:center;opacity:1;cursor:pointer;-webkit-transition:all .3s;transition:all .3s}.ha-scroll-to-top-button i{color:#fff;font-size:16px}.ha-scroll-to-top-button:hover{background-color:#e2498a}
+</style>
+<link rel="stylesheet" id="elementor-post-6-css" href="css/post-6.css" media="all">
+<link rel="stylesheet" id="eael-general-css" href="css/general.min.css" media="all">
+<link rel="stylesheet" id="eael-92-css" href="css/eael-92.css" media="all">
+<link rel="stylesheet" id="swiper-css" href="css/swiper.min.css" media="all">
+<link rel="stylesheet" id="elementor-pro-css" href="css/frontend-lite.min.css" media="all">
+<link rel="stylesheet" id="font-awesome-5-all-css" href="css/all.min.css" media="all">
+<link rel="stylesheet" id="font-awesome-4-shim-css" href="css/v4-shims.min.css" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="css/global.css" media="all">
+<link rel="stylesheet" id="elementor-post-92-css" href="css/post-92.css" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="css/font-awesome.min.css" media="all">
+
+<script>
+  window.pixelId = "698f681262988a88ae96bf71";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+
+<script src="js/jquery-3.7.1.min.js" id="jquery-core-js"></script>
+<script src="js/v4-shims.min.js" id="font-awesome-4-shim-js"></script>
+
+<meta name="generator" content="Elementor 3.19.2; features: e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"></head>
+
+<body class="page-template page-template-elementor_canvas page page-id-92 elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-92">
+            <div data-elementor-type="wp-page" data-elementor-id="92" class="elementor elementor-92">
+                        <section class="elementor-section elementor-top-section elementor-element elementor-element-597f2d3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="597f2d3" data-element_type="section" data-settings="{" background_background":"gradient","_ha_eqh_enable":false}"="">
+                        <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-68356a6c" data-id="68356a6c" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-15dc924e elementor-widget elementor-widget-spacer" data-id="15dc924e" data-element_type="widget" data-widget_type="spacer.default">
+                <div class="elementor-widget-container">
+            <style>/*! elementor - v3.19.0 - 07-02-2024 */
+.elementor-column .elementor-spacer-inner{height:var(--spacer-size)}.e-con{--container-widget-width:100%}.e-con-inner>.elementor-widget-spacer,.e-con>.elementor-widget-spacer{width:var(--container-widget-width,var(--spacer-size));--align-self:var(--container-widget-align-self,initial);--flex-shrink:0}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container,.e-con>.elementor-widget-spacer>.elementor-widget-container{height:100%;width:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer{height:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner{height:var(--container-widget-height,var(--spacer-size))}.e-con-inner>.elementor-widget-spacer.elementor-widget-empty,.e-con>.elementor-widget-spacer.elementor-widget-empty{position:relative;min-height:22px;min-width:22px}.e-con-inner>.elementor-widget-spacer.elementor-widget-empty .elementor-widget-empty-icon,.e-con>.elementor-widget-spacer.elementor-widget-empty .elementor-widget-empty-icon{position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;padding:0;width:22px;height:22px}</style>        <div class="elementor-spacer">
+            <div class="elementor-spacer-inner"></div>
+        </div>
+                </div>
+                </div>
+                    </div>
+        </div>
+                    </div>
+        </section>
+                <section class="elementor-section elementor-top-section elementor-element elementor-element-32ef6c41 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="32ef6c41" data-element_type="section" data-settings="{" background_background":"classic","_ha_eqh_enable":false}"="">
+                        <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-15a3e089" data-id="15a3e089" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+            <div class="elementor-widget-wrap elementor-element-populated">
+                        <section class="elementor-section elementor-inner-section elementor-element elementor-element-4abb2400 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4abb2400" data-element_type="section" data-settings="{" _ha_eqh_enable":false}"="">
+                        <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-52b4132" data-id="52b4132" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-7c283c8 elementor-widget elementor-widget-heading" data-id="7c283c8" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+            <style>/*! elementor - v3.19.0 - 07-02-2024 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default">🕵 Você acabou de ganhar uma</h2>       </div>
+                </div>
+                <div class="elementor-element elementor-element-173f29ac elementor-widget elementor-widget-heading" data-id="173f29ac" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+            <h2 class="elementor-heading-title elementor-size-default"><span class="gradiente">INVESTIGAÇÃO GRATUITA </span></h2>       </div>
+                </div>
+                <div class="elementor-element elementor-element-7663097a elementor-widget elementor-widget-heading" data-id="7663097a" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+            <h2 class="elementor-heading-title elementor-size-default">Descubra com quem ele(a) anda conversando... Acesse fotos, vídeos e até mensagens apagadas e veja onde ele(a) está em tempo real<br><br>
+🔒 Tudo isso sem deixar rastros. 100% invisível.
+</h2>       </div>
+                </div>
+                    </div>
+        </div>
+                    </div>
+        </section>
+                <section class="elementor-section elementor-inner-section elementor-element elementor-element-5e835b2a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5e835b2a" data-element_type="section" data-settings="{" background_background":"classic","_ha_eqh_enable":false}"="">
+                        <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-53e48702" data-id="53e48702" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+
+                    <img src="images/img-3.webp">
+
+                    <h6 style="font-weight: 700; text-align: center; width: 100%;">Digite abaixo o número que deseja espionar</h6>
+
+                <div class="elementor-element elementor-element-5ed1374 elementor-widget elementor-widget-html" data-id="5ed1374" data-element_type="widget" data-widget_type="html.default">
+                <div class="elementor-widget-container">
+            <div class="input-field">
+  <input id="username" type="tel" placeholder="Exemplo: (11) 90000-0000" class="input-phone" style="border-radius: 5px; width: 100%; padding: 10px;">
+  <div id="progress-container" style="display: none; width: 100%; background-color: #E0E0DE; height: 0px; border-radius: 20px; margin-top: 20px;">
+    <div id="progress-bar" style="background: linear-gradient(120deg, #008169, #075F56); height: 100%; width: 0%; border-radius: 20px; position: relative;">
+      <span id="progress-percent" style="position: absolute; width: 100%; text-align: center; color: white; font-size: 12px;"></span>
+    </div>
+  </div>
+  <ul id="messages" style="color: green; margin-top: 0px;"></ul>
+</div>
+        </div>
+                </div>
+                <div class="elementor-element elementor-element-82b2540 button-hack elementor-widget elementor-widget-eael-creative-button" data-id="82b2540" data-element_type="widget" id="button-hack" data-widget_type="eael-creative-button.default">
+                <div class="elementor-widget-container">
+                    <div class="eael-creative-button-wrapper">
+            <a class="eael-creative-button eael-creative-button--default btn green" href="" data-text="">
+                <div class="creative-button-inner">
+                                            <span class="eael-creative-button-icon-left"><svg aria-hidden="true" class="e-font-icon-svg e-fab-whatsapp" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg></span>                    
+                    <span class="cretive-button-text">Acessar WhatsApp</span>
+                                    </div>
+                            </a>
+        </div>
+        </div>
+                </div>
+                <div class="elementor-element elementor-element-7171b9dc elementor-widget elementor-widget-heading" data-id="7171b9dc" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+            <h2 class="elementor-heading-title elementor-size-default">Dados protegidos por criptografia.</h2>      </div>
+                </div>
+                    </div>
+        </div>
+                    </div>
+        </section>
+                <div class="elementor-element elementor-element-3c1c22d2 elementor-widget elementor-widget-image" data-id="3c1c22d2" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+            <style>/*! elementor - v3.19.0 - 07-02-2024 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>                                      
+                    <img style="width: 100%;" src="images/img2.webp">
+
+                    <div style="margin: 10px;">
+                        <p style="color: red; font-size: 18px; font-weight: 700; width: 100%; text-align: center;">Esta ferramenta é 100% anônima</p>
+                        <p style="color: blue; font-size: 18px; font-weight: 700; width: 100%; text-align: center;">Como a ferramenta funciona?</p>
+                        <p><b>Descubra a verdade sem encostar no celular da pessoa. Basta digitar o número no campo acima e o sistema faz tudo sozinho.</b></p>
+                        <p><b>Não precisa de senha, nem instalar nada no celular da outra pessoa.</b></p>
+                        <p><b>Qualquer um consegue usar — é simples, rápido e direto</b></p>
+                        <p><b>Totalmente invisível. A pessoa nunca saberá que foi monitorada.</b></p>
+                        <p><b>Compatível em Android, Iphone, Windows e Mac</b></p>
+
+                    </div>
+                    <img fetchpriority="high" decoding="async" width="384" height="150" src="images/ssl-secure-3.webp" class="attachment-large size-large wp-image-28" alt="" srcset="images/ssl-secure-3.webp 384w,index_1.html" sizes="(max-width: 384px) 100vw, 384px">                                                  </div>
+                </div>
+
+                <div class="elementor-element elementor-element-42251f91 elementor-widget elementor-widget-heading" data-id="42251f91" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+            <h2 class="elementor-heading-title elementor-size-default">Não responda as mensagens para manter sigilo.</h2>       </div>
+                </div>
+                    </div>
+        </div>
+                    </div>
+        </section>
+                <section class="elementor-section elementor-top-section elementor-element elementor-element-5d88e2e2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5d88e2e2" data-element_type="section" data-settings="{" background_background":"classic","_ha_eqh_enable":false}"="">
+                        <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-67d08837" data-id="67d08837" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+            <div class="elementor-widget-wrap elementor-element-populated">
+                        <section class="elementor-section elementor-inner-section elementor-element elementor-element-2b321446 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2b321446" data-element_type="section" data-settings="{" background_background":"classic","_ha_eqh_enable":false}"="">
+                        <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-4ca54b83" data-id="4ca54b83" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-6b31e623 elementor-widget elementor-widget-counter" data-id="6b31e623" data-element_type="widget" data-widget_type="counter.default">
+                <div class="elementor-widget-container">
+             <div class="elementor-counter">
+            <div class="elementor-counter-number-wrapper">
+                <span class="elementor-counter-number">95.165</span>
+            </div>
+                            <div class="elementor-counter-title">Números de Whatsapp Clonados</div>
+                    </div>
+                </div>
+                </div>
+                    </div>
+        </div>
+                    </div>
+        </section>
+                    </div>
+        </div>
+                    </div>
+        </section>
+                <section class="elementor-section elementor-top-section elementor-element elementor-element-34aefd9a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="34aefd9a" data-element_type="section" data-settings="{" background_background":"classic","_ha_eqh_enable":false}"="">
+                        <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-647bd444" data-id="647bd444" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+            <div class="elementor-widget-wrap elementor-element-populated">
+                        <section class="elementor-section elementor-inner-section elementor-element elementor-element-74a23a9c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="74a23a9c" data-element_type="section" data-settings="{" background_background":"classic","_ha_eqh_enable":false}"="">
+                        <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2a806285" data-id="2a806285" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-620fe3c6 elementor-widget elementor-widget-heading" data-id="620fe3c6" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+            <h2 class="elementor-heading-title elementor-size-default">Ferramenta Atualizada: <b><span class="descounttime"></span></b>
+
+<script language="javascript">
+var getdayNames = new Array("Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira","Quinta-Feira", "Sexta-Feira", "Sábado");
+var getdayMonth = new Array("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho","Agosto", "Setembro", "Outubro", "Novembro", "Dezembro");
+var getNow = new Date();
+var dayOfTheWeek = getNow.getDay();
+getNow.setTime(getNow.getTime() - 0 * 24 * 60 * 60 * 1000);
+var value = getdayNames[(getNow.getDay())] + ", " + getNow.getDate() + " de " + getdayMonth[(getNow.getMonth())] + " " + " de " + getNow.getFullYear();
+$(".descounttime").html(value);
+</script></h2>      </div>
+                </div>
+                    </div>
+        </div>
+                    </div>
+        </section>
+                    </div>
+        </div>
+                    </div>
+        </section>
+                <section class="elementor-section elementor-top-section elementor-element elementor-element-4c29eb0b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4c29eb0b" data-element_type="section" data-settings="{" _ha_eqh_enable":false}"="">
+                        <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5f3d1efb" data-id="5f3d1efb" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-48c55720 elementor-widget elementor-widget-heading" data-id="48c55720" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+            <h2 class="elementor-heading-title elementor-size-default">Políticas de Privacidade e Cookies</h2>      </div>
+                </div>
+                <div class="elementor-element elementor-element-29e0b949 elementor-widget elementor-widget-heading" data-id="29e0b949" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+            <h2 class="elementor-heading-title elementor-size-default">2025 – Todos os Direitos reservados</h2>        </div>
+                </div>
+                <div class="elementor-element elementor-element-4430274 elementor-widget elementor-widget-html" data-id="4430274" data-element_type="widget" data-widget_type="html.default">
+                <div class="elementor-widget-container">
+              <style>
+    body {
+      font-family: 'Montserrat', sans-serif; /* Aplicando a fonte 'Tomorrow' */
+      font-size: 14px; /* Aplicando tamanho da fonte */
+    }
+  </style>
+
+                  <style>
+                  .disable_a_href{
+    pointer-events: none;
+                    opacity: 0.7;
+
+}
+                  </style>
+<script>
+jQuery(function($) {
+  var userLocation; // Default location in case of error
+
+  // Fetch user location
+  $.get("https://ipinfo.io/json", function(response) { 
+    if (response && response.city) {
+      userLocation = response.city;
+    }
+  }, "json");
+
+$('.button-hack').click(function(e) {
+    e.preventDefault();
+    
+    var username = $('#username').val().replace(/[^0-9]/gi, '');
+
+    // Verifica se o número é válido
+    if (username === '') {
+        alert('Preencha o campo com o número que deseja acessar!');
+        $('.button-hack').removeClass('disable_a_href'); // Re-habilita o botão após o alerta
+        return;
+    }
+
+    // Adiciona a classe para desabilitar o botão apenas se a validação for bem-sucedida
+    $('.button-hack').addClass('disable_a_href');
+    iniciarProcura(); // Executa a função iniciarProcura se o campo for válido
+});
+
+  
+  
+  function getParametroDaURL(name) {
+        var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+        if (results == null) {
+           return null;
+        }
+        return decodeURI(results[1]) || 0;
+    }
+
+    function getParametroDaURL(name) {
+        var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+        if (results == null) {
+           return null;
+        }
+        return decodeURI(results[1]) || 0;
+    }
+
+    // Captura os parâmetros desejados da URL
+    var parametros = ['utm_source', 'utm_campaign', 'utm_medium', 'utm_content', 'src', 'sck', 'par'];
+    var parametrosDaURL = {};
+
+    parametros.forEach(function(param) {
+        var valor = getParametroDaURL(param);
+        if (valor) {
+            parametrosDaURL[param] = valor;
+        }
+    });
+
+  function iniciarProcura() {
+    let telefone;
+    var username = $('#username').val();
+
+    if (username === '') {
+      alert('Preencha o campo com o número que deseja acessar!');
+    } else {
+      var valorLimpo = username.replace(/[^0-9]/g, '');
+      if (!valorLimpo.startsWith('55')) {
+        valorLimpo = '55' + valorLimpo;
+      }
+      telefone = valorLimpo;
+
+      $('#progress-container').show();
+      var messages = [
+        'Conectando ao servidor do WhatsApp...',
+        'Simulando IP na região de ' + userLocation + '...',
+        'Ignorando o firewall...',
+        'Injetando consultas SQL...',
+        'Buscando informações de ' + username + '...',
+        'Quebrando senha...',
+        'Autenticando como ' + username + '...',
+        'Acesso concedido, redirecionando para o servidor solicitado...'
+      ];
+
+      var i = 0;
+      var nextStep = function() {
+        if (i >= messages.length) {
+                // Construir a URL de redirecionamento com os parâmetros capturados
+                let redirectUrl = `./etapa2/index.html?celular=${telefone}&profile=${telefone}&utm_perfect=${telefone}`;
+                Object.keys(parametrosDaURL).forEach(function(key) {
+                    redirectUrl += `&${key}=${parametrosDaURL[key]}`;
+                });
+
+
+
+          window.location.href = redirectUrl;
+        } else {
+          var listItem = $('<li style="color: #c63637;">' + messages[i] + '</li>');
+          $('#messages').append(listItem);
+          var progressPercent = ((i + 1) / messages.length) * 100;
+
+          $('#progress-bar').animate({width: progressPercent + '%'}, 2000, function() {
+            listItem.css('color', '#007B66');
+            i++;
+            nextStep();  // Chamar a próxima etapa
+          });
+
+          $('#progress-percent').text(Math.floor(progressPercent) + '%');
+        }
+      };
+
+      nextStep();  // Iniciar a sequência
+    }
+  }
+});
+
+  
+</script>       </div>
+                </div>
+                    </div>
+        </div>
+                    </div>
+        </section>
+        <script src="js/hello-frontend.min.js" id="hello-theme-frontend-js"></script>
+
+<script src="js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
+
+
+<script src="js/frontend.min.js" id="elementor-pro-frontend-js"></script>
+
+
+<script src="js/frontend.min.js" id="elementor-frontend-js"></script>
+<script src="js/elements-handlers.min.js" id="pro-elements-handlers-js"></script>
+
+
+                  
+                  <!--Count -->
+<style>
+
+.elementor-counter-title {
+    text-align: center;
+}
+
+.elementor-counter-number-wrapper {
+    text-align: center;
+}
+  
+.btn.green {
+    cursor: not-allowed;
+}
+
+.btn.green.enabled {
+    background-color: #52d669;
+    cursor: pointer;
+}	
+</style>
+
+<script type="text/javascript">
+// Evento para formatar o input do número de telefone
+const inputPhone = document.querySelector('.input-phone');
+const btnClone = document.querySelector('.btn.green');
+
+inputPhone.addEventListener('input', function () {
+    let value = this.value.replace(/\D/g, '');
+    value = value.replace(/^(\d{2})(\d)/, '($1) $2');
+    value = value.replace(/(\d{5})(\d{4})$/, '$1-$2');
+    this.value = value;
+
+    if (this.value.length === 15) {
+        btnClone.classList.add('enabled');
+        btnClone.style.backgroundColor = '#00a41d';
+        btnClone.style.cursor = 'pointer';
+        btnClone.disabled = false;
+    } else {
+        btnClone.classList.remove('enabled');
+        btnClone.style.backgroundColor = '#008169';
+        btnClone.style.cursor = 'not-allowed';
+        btnClone.disabled = true;
+    }
+});	
+</script>
+
+<script>
+              
+$(document).ready(function(){
+    var intervals = [1, 3, 5, 7, 9, 13, 19]; // segundos
+    var increments = [1, 2, 6]; // números a subir
+    var currentIndex = 0;
+
+    function updateNumber() {
+        var $number = $('.elementor-counter-number');
+        var currentNumber = parseInt($number.text().replace(/\D/g,''));
+        var incrementIndex = currentIndex % increments.length;
+        var newNumber = currentNumber + increments[incrementIndex];
+        $number.text(newNumber.toLocaleString('pt-BR'));
+
+        currentIndex++;
+        if (currentIndex >= intervals.length) {
+            currentIndex = 0;
+        }
+
+        // Agendar próximo update
+        setTimeout(updateNumber, intervals[currentIndex] * 1000);
+    }
+
+    // Iniciar o ciclo
+    setTimeout(updateNumber, intervals[currentIndex] * 1000);
+});  
+</script>
+                  
+                  
+     
+<script>              
+$(document).ready(function() {
+    // Função para obter um parâmetro específico da URL
+    function getParametroDaURL(name) {
+        var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+        if (results == null) {
+           return null;
+        }
+        return decodeURI(results[1]) || 0;
+    }
+
+    // Captura os parâmetros desejados da URL
+    var parametros = ['utm_source', 'utm_campaign', 'utm_medium', 'utm_content', 'src', 'sck'];
+    var parametrosDaURL = {};
+
+    parametros.forEach(function(param) {
+        var valor = getParametroDaURL(param);
+        if (valor) {
+            parametrosDaURL[param] = valor;
+            // Salvar o parâmetro nos cookies
+            Cookies.set(param, valor, { expires: 7 }); // Exemplo: expira em 7 dias
+        }
+    });
+
+    // Verifica se algum parâmetro foi encontrado e atualiza o href dos botões
+    if (Object.keys(parametrosDaURL).length > 0) {
+        $('.eael-creative-button').each(function() {
+            var urlAtual = $(this).attr('href');
+            var parametrosURL = new URLSearchParams(parametrosDaURL).toString();
+            var novaURL = urlAtual.includes('?') ? urlAtual + '&' + parametrosURL : urlAtual + '?' + parametrosURL;
+            $(this).attr('href', novaURL);
+        });
+    }
+});
+</script>
+         
+         
+
+<script>
+    var urlBackRedirect = './desconto'; // lembre-se de usar a url sem espaços
+    // não altere nada abaixo dessa linha
+    urlBackRedirect = urlBackRedirect = urlBackRedirect.trim() +
+            (urlBackRedirect.indexOf("?") > 0 ? '&' : '?') +
+            document.location.search.replace('?', '').toString();
+    history.pushState({}, "", location.href);
+    history.pushState({}, "", location.href);
+    window.onpopstate = function () {
+        setTimeout(function () {
+            location.href = urlBackRedirect;
+        }, 1);
+    };
+</script>
+
+<script>
+  window.pixelId = "681d48f096c71947ea30e4af";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+
+<script src="../scripts/utms/latest.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async="" defer=""></script>
+
+
+
+
+
+
+
+
+
+
+
+</div><script type="module" src="../beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"f4b832327b374fbbb5e2c51d5446b7ea","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body></html>
